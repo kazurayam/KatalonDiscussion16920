@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>head_meta_ogtitle</name>
+   <name>head_meta_name-ogtitle</name>
    <tag></tag>
    <elementGuidId>9427d48b-1a9f-490f-9643-c64f22b6d846</elementGuidId>
    <selectorCollection>

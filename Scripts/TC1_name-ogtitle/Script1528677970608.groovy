@@ -22,11 +22,11 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('http://demoaut-mimic.kazurayam.com/16920_testbed.html')
+WebUI.navigateToUrl('http://demoaut-mimic.kazurayam.com/16920_name-ogtitle_testbed.html')
 
 WebUI.verifyElementPresent(findTestObject('Page_Discussion 16920/p_'), 10, FailureHandling.OPTIONAL)
 
-def ogtitle = WebUI.getAttribute(findTestObject('Page_Discussion 16920/head_meta_ogtitle'), 'content')
+def ogtitle = WebUI.getAttribute(findTestObject('Page_Discussion 16920/head_meta_name-ogtitle'), 'content')
 WebUI.comment("og:title=${ogtitle}")
 
 WebUI.closeBrowser()
